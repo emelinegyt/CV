@@ -1,0 +1,179 @@
+
+/* body */
+
+body{
+
+    font-family: 'Montserrat';}
+
+h1{
+
+  font-size: 40px;
+}
+
+h2{
+
+  font-size: 25px;
+}
+
+p{
+
+  font-size: 12px;
+}
+
+.navbar{
+
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+.nav-link{
+
+    color: rgb(58, 58, 58);
+}
+
+
+/* accueil*/
+
+#about{
+
+    background: rgb(248, 207, 96);
+}
+
+.profile-picture{
+
+    float: none;
+}
+
+.button1{
+
+    font-weight: bold;
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 3px;
+    transition:  all 0.3s ease-in 0s;
+
+}
+
+.button1:hover{
+
+    background: white;
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    
+}
+
+/* A PROPOS */
+
+#a-propos{
+
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+}
+
+/* compétences */
+
+#skills{
+    
+    background: rgb(253, 246, 234); 
+     
+}
+#skills .progress{
+
+    height: 20%;
+    backface-visibility: #fff;
+      
+}
+
+/* timeline */
+.timeline{
+
+  width:  100%;
+  margin: auto;
+  padding-left: 10px;
+}
+
+.timeline .timeline-wrapper .timeline-panel {
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 1px 2px 35px 0 rgba(1, 1, 1, 0.1);
+  width: 60%;
+
+}
+
+.timeline .timeline-wrapper .timeline-panel:before {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 2px;
+  content: "";
+  left: 0;
+  right: 0;
+}
+
+.timeline .timeline-wrapper.timeline-inverted .timeline-panel {
+  margin-left: auto;
+  margin-right: 5%;
+
+}
+
+.timeline-wrapper-success .timeline-panel:before {
+  background: #0ddbb9;
+}
+
+.timeline-wrapper-info .timeline-panel:before {
+  background: #0ad7f7;
+}
+
+.timeline-wrapper-warning .timeline-panel:before {
+  background: #fcd539;
+}
+
+.timeline-wrapper-danger .timeline-panel:before {
+  background: #ef5958;
+}
+
+
+/* diplôme */
+
+#education{
+
+  background: rgb(248, 207, 96);
+ 
+}
+
+.education-block{
+
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background:white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+
+.education-block .glyphicon{
+
+    font-size: 30px;
+
+}
+
+.education-block H3{
+
+    color: rgb(240, 190, 84);
+}
+
+
+/* footer */
+
+.footer {
+
+  background-color: #f5c449;
+  color: #fff;
+}
