@@ -20,9 +20,8 @@ p{
   font-size: 12px;
 }
 
-.navbar{
+.navbar-expand-lg{
 
-  padding-top: 30px;
   font-size: 14px;
 }
 
@@ -30,7 +29,7 @@ p{
 
 #about{
 
-    background: rgb(248, 207, 96);
+    background: rgb(236, 203, 175);
 }
 
 .profile-picture{
@@ -39,7 +38,7 @@ p{
 }
 
 .button1{
-
+  color: white;
     font-weight: bold;
     border: 1px solid white;
     display: inline-block;
@@ -51,7 +50,7 @@ p{
 .button1:hover{
 
     background: white;
-    color: rgb(56, 56, 56);
+    color: rgb(48, 48, 48);
     text-decoration: none;
     
 }
@@ -62,14 +61,23 @@ p{
 
   padding-top: 150px;
   padding-bottom: 150px;
-
 }
 
+.folio{
+
+  color: white;
+}
+
+.folio:hover{
+
+  color: rgb(240, 223, 208);
+  text-decoration: none;
+}
 /* compétences */
 
 #skills{
     
-    background: rgb(253, 246, 234); 
+  background: rgb(240, 223, 208);
      
 }
 #skills .progress{
@@ -82,9 +90,8 @@ p{
 /* timeline */
 .timeline{
 
-  width:  100%;
+  width:  90%;
   margin: auto;
-  padding-left: 10px;
 }
 
 .timeline .timeline-wrapper .timeline-panel {
@@ -123,7 +130,7 @@ p{
 }
 
 .timeline-wrapper-warning .timeline-panel:before {
-  background: #fcd539;
+  background: rgb(240, 223, 208);
 }
 
 .timeline-wrapper-danger .timeline-panel:before {
@@ -135,7 +142,7 @@ p{
 
 #education{
 
-  background: rgb(248, 207, 96);
+  background: rgb(240, 223, 208);
  
 }
 
@@ -160,7 +167,7 @@ p{
 
 .education-block H3{
 
-    color: rgb(240, 190, 84);
+    color:  rgb(34, 34, 34);
 }
 
 
@@ -185,6 +192,6 @@ p{
 
 .footer {
 
-  background-color: #f5c449;
-  color: #fff;
+  background: rgb(240, 223, 208);
+  color: rgb(39, 39, 39);
 }

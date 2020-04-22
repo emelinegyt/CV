@@ -17,33 +17,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <nav class="navbar">
-        <ul class="nav justify-content-center ">
-            <li class="nav-item text-uppercase">
-                <a class="nav-link active" href="#skills">Compétences</a>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar-expand-lg navbar-light bg-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center p-3" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link m-3 text-uppercase" href="#a-propos">A propos</a>
             </li>
-            <li class="nav-item text-uppercase">
-                <a class="nav-link" href="#contact">Portfolio</a>
+            <li class="nav-item">
+              <a class="nav-link m-3 text-uppercase" href="#skills">Compétences </a>
             </li>
-            <li class="nav-item text-uppercase">
-                <a class="nav-link" href="#a-propos">A propos</a>
+            <li class="nav-item">
+              <a class="nav-link m-3 text-uppercase" href="#">Diplôme</a>
             </li>
-            <li class="nav-item text-uppercase">
-                <a class="nav-link" href="#contact">Contact</a>
+            <li class="nav-item">
+                <a class="nav-link m-3 text-uppercase" href="#portfolio">Portfolio</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link m-3 text-uppercase" href="#contact">Contact</a>
             </li>
-        </ul>
-    </nav>
+          </ul>
+          
+        </div>
+      </nav>
+    
 
 
 
-    <section id="about" style="padding-top: 100px;" class="container-fluid">
-       
+    <section id="about" style="padding-top: 200px;" class="container-fluid">
+
         <div class="heading text-center" style="padding-bottom: 80px;">
             <img src="./ressources/eme.jpeg" class="img-circle mb-5" alt="">
             <h1 class="text-unpercase text-white">Emeline GUYET</h1>
             <h3 class="text-unpercase text-white">Infographiste - Webdesigner</h3>
-            <a href="docs/cv" class="button1 p-3 mt-3 text-uppercase text-white border-1" >Télécharger CV</a>
+            <a href="ressources/cv-emeline-guyet.pdf" class="button1 p-3 mt-3 text-uppercase border-1" target="_blank">Télécharger CV</a>
         </div>
 
     </section>
@@ -64,9 +76,8 @@
                             dolor, consectetur sit amet mollis eget, mattis in lacus. Etiam molestie vel felis sit amet
                             cursus. Maecenas sit amet lacus purus</p>
                     </div>
-                    <button type="button" class="btn btn-warning text-uppercase p-3">En savoir plus</button>
-                    <button id="portfolio" type="button"
-                        class="btn btn-warning text-uppercase p-3 ml-4">Portfolio</button>
+                   
+                    <button id="button" type="button" class="btn btn-dark text-uppercase p-3"><a href="#portfolio" class="folio">Portfolio </a></button>
                 </div>
 
             </div>
@@ -85,53 +96,53 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mt-4">
                     <div class="progress m-3 ">
-                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
                             aria-valuemax="100" style="width:90%">
                             <h5>INDESIGN</h5>
                         </div>
                     </div>
                     <div class="progress m-3">
-                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
                             aria-valuemax="100" style="width:94%">
                             <h5>ILLUSTRATOR</h5>
                         </div>
                     </div>
                     <div class="progress m-3">
-                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
                             aria-valuemax="100" style="width:85%">
                             <h5>PHOTOSHOP</h5>
                         </div>
                     </div>
                     <div class="progress m-3">
-                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
                             aria-valuemax="100" style="width:70%">
                             <h5>HTML</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mt-4">
                     <div class="progress m-3">
-                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
                             aria-valuemax="100" style="width:60%">
                             <h5>BOOTSTRAP</h5>
                         </div>
                     </div>
                     <div class="progress m-3">
-                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
                             aria-valuemax="100" style="width:90%">
                             <h5>LIGHTROOM</h5>
                         </div>
                     </div>
                     <div class="progress m-3">
-                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
                             aria-valuemax="100" style="width:35%">
                             <h5>ANIMATE</h5>
                         </div>
                     </div>
                     <div class="progress m-3">
-                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
                             aria-valuemax="100" style="width:90%">
                             <h5>WORDPRESS - DIVI</h5>
                         </div>
@@ -152,18 +163,19 @@
 
                 <div class="timeline">
 
-                    <div class="timeline-wrapper timeline-inverted timeline-wrapper-info">
+                    <div class="timeline-wrapper timeline-inverted timeline-wrapper-info m-5">
                         <div class="timeline-badge"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h3 class="timeline-title text-uppercase">Photographe et Infographiste Freelance</h3>
                             </div>
                             <div class="timeline-body">
-                                <p> - micro-entrepreneur depuis Janvier 2020 dans le secteur de la photographie et de la conception graphique.</p>
+                                <p> <br> - micro-entrepreneur depuis janvier 2020 dans le secteur de la photographie et de la
+                                    conception graphique.</p>
                             </div>
                             <div class="timeline-footer d-flex align-items-center flex-wrap">
 
-                                <span class="ml-md-auto font-weight-bold">Début janvier 2020</span>
+                                <span class="ml-md-auto font-weight-bold">Janvier 2020</span>
                             </div>
                         </div>
                     </div>
@@ -174,7 +186,9 @@
                                 <h3 class="timeline-title text-uppercase">Stage en Webdesign</h3>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-uppercase"> stage de 2 mois à l'agence Yellow Tree.</p> <p><br> - création maquette graphique et création de site Wordpress via un CMS <br> - création de sites à l'aide de Wordpress - Divi <br> - réalisation de logos et
+                                <p class="text-uppercase"> stage de 4 semaines à l'agence Yellow Tree à la Roche-sur-Yon.</p>
+                                <p><br> - création de maquettes graphiques et création de sites Wordpress via un CMS <br> -
+                                    création de sites à l'aide de Wordpress - Divi <br> - réalisation de logos et
                                     d'affiches.</p>
                             </div>
                             <div class="timeline-footer d-flex align-items-center flex-wrap">
@@ -182,14 +196,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="timeline-wrapper timeline-inverted timeline-wrapper-danger">
+                    <div class="timeline-wrapper timeline-inverted timeline-wrapper-danger m-5">
                         <div class="timeline-badge"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h3 class="timeline-title text-uppercase">Apprentie Infographiste</h3>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-uppercase"> apprentie pendant 2 ans au sein de l'Imprimerie Etienne. </p><p> <br> - connaissances des contraintes techniques d'impressions <br> - connaissances de la chaîne graphique <br> - création de production print <br> - contact / relation client.</p>
+                                <p class="text-uppercase"> apprentie pendant 2 ans au sein de l'Imprimerie Etienne. </p>
+                                <p> <br> - connaissances des contraintes techniques d'impressions <br> - connaissances
+                                    de la chaîne graphique <br> - création de visuelles de communication dans le secteur viticole <br> - contact / relation
+                                    client.</p>
                             </div>
                             <div class="timeline-footer d-flex align-items-center flex-wrap">
 
@@ -197,7 +214,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="timeline-wrapper timeline-wrapper-success">
+                    <div class="timeline-wrapper timeline-wrapper-success m-5">
                         <div class="timeline-badge"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -213,7 +230,7 @@
                             </div>
                         </div>
                     </div>
-                  
+
 
     </section>
 
@@ -227,7 +244,7 @@
         <div class="container">
             <div class="col-md-12">
                 <div class="diplome">
-                    <h2 class="text-center text-uppercase">Diplôme</h2>
+                    <h2 class="text-center text-uppercase">Diplômes</h2>
                 </div>
             </div>
         </div>
@@ -237,34 +254,37 @@
                     <div class="education-block">
                         <h5>2020</h5>
                         <span class="glyphicon glyphicon-education"></span>
-                        <h3>Formation Designer Web</h3>
+                        <h3 class="text-uppercase p-4">Formation Designer Web</h3>
                         <h4>Formation niveau III (bac+2) de Designer web à ARINFO</h4>
                         <div class="red-divider"></div>
-                        <p> - Connaissance et réalisation de sites en HTML5 / CSS et Bootstrap <br> - création de supports de communication <br> - Base en Motion Design via Animate et After Effects</p>
-                        
+                        <p> - Connaissance et réalisation de sites en HTML5 / CSS et Bootstrap <br> - création de
+                            supports de communication <br> - Base en Motion Design via Animate et After Effects</p>
+
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="education-block">
                         <h5>2017 - 2019</h5>
                         <span class="glyphicon glyphicon-education"></span>
-                        <h3>Baccalauréat Professionnel RPIP</h3>
+                        <h3 class="text-uppercase p-4">Baccalauréat Professionnel RPIP</h3>
                         <h4>Diplôme Réalisation de Produits Imprimés et Plurimédia</h4>
                         <div class="red-divider"></div>
                         <p> - Mise en page et réalisation d'identité visuelle et de supports
-                            de communication print <br> - approche du code HTML / CSS <br> - Manipulation des différents logiciels Adobe <br> - participation au concours "Un des Meilleurs Apprentis de France" avec la médaille d'agent départementale <br>
+                            de communication print <br> - approche du code HTML / CSS <br> - Manipulation des différents
+                            logiciels Adobe <br> - participation au concours "Un des Meilleurs Apprentis de France" avec
+                            la médaille d'agent départementale <br>
                         </p>
                     </div>
                 </div>
-             
+
                 <div class="col-sm-6">
                     <div class="education-block">
                         <h5>2016-2017</h5>
                         <span class="glyphicon glyphicon-education"></span>
-                        <h3 class="text-uppercase">BTS Professions Immobilières</h3>
-                        <h4>Première année de BTS Professions Immobilières à l'IST des Sables d'Olonne</h4>
+                        <h3 class="text-uppercase p-4">BTS Professions Immobilières</h3>
+                        <h4>BTS Professions Immobilières pendant 1 semestre à l'IST des Sables d'Olonne</h4>
                         <div class="red-divider"></div>
-                       
+
                     </div>
                 </div>
 
@@ -273,10 +293,10 @@
                     <div class="education-block">
                         <h5>2016-2017</h5>
                         <span class="glyphicon glyphicon-education"></span>
-                        <h3 class="text-uppercase">Baccalauréat Général économique et Social</h3>
+                        <h3 class="text-uppercase p-4">Baccalauréat Général économique et Social</h3>
                         <h4>Obtention du Baccalauréat général au lycée Sainte-Ursule à Luçon (85)</h4>
                         <div class="red-divider"></div>
-                       
+
                     </div>
                 </div>
             </div>
@@ -289,82 +309,87 @@
         <div class="container">
 
             <h2 class="text-center mt-4 p-5 text-uppercase">Portfolio</h2>
-          
+
             <hr class="mt-2 mb-5">
-          
+
             <div class="row text-center text-lg-left p-5">
-          
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/dessin1.jpg" alt="">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/dessin1.jpg" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/La-mam-Presentation.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/La-mam-Presentation.jpg" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/shirnail.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/shirnail.jpg" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/dessin.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/dessin.jpg" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/logo-influence-1920x1179.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/logo-influence-1920x1179.jpg" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/webdesign.png" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/webdesign.png" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/IMG_3892.PNG" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/IMG_3892.PNG" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/photo.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/photo.jpg" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/faire-part.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/faire-part.jpg" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/logo (1).png" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/logo (1).png" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/illustration.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/illustration.jpg" alt="">
                     </a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-6">
-                <a class="thumbnail" href="#" class="d-block mb-4 h-100">
-                      <img class="img-fluid img-thumbnail" src="ressources/shooting.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a class="thumbnail" href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="ressources/shooting.jpg" alt="">
                     </a>
-              </div>
+                </div>
             </div>
-          
-          </div>
+
+        </div>
     </section>
 
-    
+
+
 
     <!-- Footer-->
-    <footer class="footer text-center p-5">
+
+    <a href="https://www.instagram.com/gyt.photographie/?hl=fr">facebook</a>
+
+    <footer id="contact" class="footer text-center p-5">
         <div class="container">
             <div class="row">
+                   
                 <!-- Footer adresse-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Adresse</h4>
@@ -373,12 +398,11 @@
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Me suivre</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i
-                            class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1"
-                        href="#"><i class="fab fa-fw fa-twitter"></i></a><a
-                        class="btn btn-outline-light btn-social mx-1" href="#"><i
-                            class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1"
-                        href="#"><i class="fab fa-fw fa-dribbble"></i></a>
+                    <a class="btn btn-outline-dark btn-social mx-1" target="_blank" href="https://www.facebook.com/emelinegyt.photographie/?modal=admin_todo_tour"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-dark btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/emeline-guyet-64289817b/"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-dark btn-social mx-1"
+                        href="#"><i class="fab fa-fw fa-instagram"></i></a>
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-md-4">
@@ -393,7 +417,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="script.js"></script>
+
+    <script src="script.js" ></script>
 </body>
 
 </html>
