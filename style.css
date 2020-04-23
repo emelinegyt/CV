@@ -137,6 +137,14 @@ p{
   background: #ef5958;
 }
 
+@media screen and (max-width:500px){
+.timeline{
+
+  width:  100%;
+  margin: auto;
+  margin-left: 20px;
+}
+}
 
 /* diplôme */
 
