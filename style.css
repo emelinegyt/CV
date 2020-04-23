@@ -30,11 +30,13 @@ p{
   font-size: 14px;
 }
 
+
+
 /* accueil*/
 
 #about{
 
-    background: rgb(250, 233, 218);
+  background: linear-gradient(#8dad73, #aac991,#ddf1d8);
 }
 
 .profile-picture{
@@ -75,14 +77,14 @@ p{
 
 .folio:hover{
 
-  color:rgb(250, 233, 218);
+  color:rgb(170, 184, 167);
   text-decoration: none;
 }
 /* compétences */
 
 #skills{
     
-  background: rgb(250, 233, 218);
+  background: rgb(255, 249, 243);
      
 }
 #skills .progress{
@@ -155,7 +157,7 @@ p{
 
 #education{
 
-  background: rgb(240, 223, 208);
+  background: rgb(170, 184, 167);
  
 }
 
