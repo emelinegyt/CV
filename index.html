@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -14,6 +13,7 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -35,7 +35,7 @@
                     <a class="nav-link m-3 text-uppercase" href="#skills">Compétences </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link m-3 text-uppercase" href="#education">Diplôme</a>
+                    <a class="nav-link m-3 text-uppercase" href="#education">Etudes</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link m-3 text-uppercase" href="#portfolio">Portfolio</a>
@@ -48,15 +48,15 @@
         </div>
     </nav>
 
-
+ 
 
 
     <section id="about" style="padding-top: 200px;" class="container-fluid">
 
         <div class="heading text-center" style="padding-bottom: 80px;">
             <img src="./ressources/eme.jpeg" class="img-circle mb-5" alt="">
-            <h1 class="text-unpercase text-white">Emeline GUYET</h1>
-            <h3 class="text-unpercase text-white">Infographiste - Webdesigner</h3>
+            <h1 class="text-unpercase text-black">Emeline GUYET</h1>
+            <h3 class="text-unpercase text-black">Infographiste - Webdesigner</h3>
             <a href="ressources/cv-emeline-guyet.pdf" class="button1 p-3 mt-3 text-uppercase border-1"
                 target="_blank">Télécharger CV</a>
         </div>
@@ -66,6 +66,7 @@
     <section id="a-propos">
         <div class="container">
             <div class="row">
+
                 <div class="col-md-6">
                     <div class="text-center ">
                         <H2 class="text-uppercase pb-5">Qui je suis ?</H2>
@@ -73,6 +74,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="description">
+                        <div data-aos="fade-left">
                         <p class="text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum lacus, bibendum sed
                             congue ut, porttitor sed velit. Phasellus tempus velit luctus semper dictum. Vivamus mauris
@@ -82,6 +84,7 @@
 
                     <button id="button" type="button" class="btn btn-dark text-uppercase p-3"><a href="#portfolio"
                             class="folio">Portfolio </a></button>
+                        </div>
                 </div>
 
             </div>
@@ -121,7 +124,7 @@
                     </div>
                     <div class="progress m-3">
                         <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                            aria-valuemax="100" style="width:70%">
+                            aria-valuemax="100" style="width:64%">
                             <h5>HTML</h5>
                         </div>
                     </div>
@@ -246,7 +249,7 @@
         <div class="container">
             <div class="col-md-12">
                 <div class="diplome">
-                    <h2 class="text-center text-uppercase">Diplômes</h2>
+                    <h2 class="text-center text-uppercase">Etudes</h2>
                 </div>
             </div>
         </div>
@@ -429,11 +432,6 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <script>
-        AOS.init();
-    </script>
 
     <script src="script.js"></script>
 </body>

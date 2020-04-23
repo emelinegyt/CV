@@ -34,7 +34,7 @@ p{
 
 #about{
 
-    background: rgb(236, 203, 175);
+    background: rgb(250, 233, 218);
 }
 
 .profile-picture{
@@ -43,9 +43,9 @@ p{
 }
 
 .button1{
-  color: white;
+  color: rgb(46, 46, 46);
     font-weight: bold;
-    border: 1px solid white;
+    border: 1px solid rgb(51, 51, 51);
     display: inline-block;
     border-radius: 3px;
     transition:  all 0.3s ease-in 0s;
@@ -75,14 +75,14 @@ p{
 
 .folio:hover{
 
-  color: rgb(240, 223, 208);
+  color:rgb(250, 233, 218);
   text-decoration: none;
 }
 /* compétences */
 
 #skills{
     
-  background: rgb(240, 223, 208);
+  background: rgb(250, 233, 218);
      
 }
 #skills .progress{
